@@ -4,9 +4,9 @@ class Fib{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Choice:-----> ");
-        System.out.print("1.Fibonacci");
-        System.out.print("2.Prime");
-        System.out.print("3.Armstrong");
+        System.out.print("1.Fibonacci ");
+        System.out.print("2.Prime ");
+        System.out.print("3.Armstrong ");
         System.out.println();
         int choice = sc.nextInt();
         switch (choice) {
@@ -64,10 +64,10 @@ class Fib{
             break;
             }
             Default:
-                System.out.print("Invalid");
+                System.out.print("");
                 
         }     
-                
+              
     }     
       
 
