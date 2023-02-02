@@ -37,6 +37,7 @@ class Fib{
                         System.out.print(j + " ");
                     }
                 }
+                break;
                 case 3 :
     
                 System.out.println("Enter Number");
@@ -54,16 +55,20 @@ class Fib{
                     originalNumber /= 10;
                 }
 
-                if(result == number)
+                if(result == number){
                     System.out.println(number + " is an Armstrong number.");
-                else
+                }    
+                else{
                     System.out.println(number + " is not an Armstrong number.");
                 }
+            break;
             }
+            Default:
+                System.out.print("Invalid");
+                
+        }     
+                
+    }     
+      
 
-            default:
-                break;
-        }
-        
-
-}
+    
